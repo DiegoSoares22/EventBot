@@ -14,6 +14,8 @@ public class Worker : BackgroundService
 
     public const string RoleAmericano = "Servidor Americano";
     public const string RoleEuropeu = "Servidor Europeu";
+    private static readonly TimeZoneInfo FusoHorario =
+    TimeZoneInfo.FindSystemTimeZoneById(OperatingSystem.IsWindows() ? "E. South America Standard Time" : "America/Sao_Paulo");
 
     public Worker(DiscordSocketClient client, IConfiguration config, ILogger<Worker> logger)
     {
@@ -184,7 +186,8 @@ public class Worker : BackgroundService
             return;
         }
 
-        var resultado = ProximoEventoCalculator.Calcular(eventos, DateTime.Now);
+        var agora = TimeZoneInfo.ConvertTime(DateTime.UtcNow, FusoHorario);
+        var resultado = ProximoEventoCalculator.Calcular(eventos, agora);
         if (resultado == null)
         {
             await command.RespondAsync("Não consegui calcular o próximo evento.", ephemeral: true);

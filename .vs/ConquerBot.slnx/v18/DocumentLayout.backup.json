@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Diego\\Downloads\\ConquerBot\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEB0D1-8CAF-6323-974F-B6FF970BCA29}|ConquerBot\\ConquerBot.csproj|c:\\users\\diego\\downloads\\conquerbot\\conquerbot\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEB0D1-8CAF-6323-974F-B6FF970BCA29}|ConquerBot\\ConquerBot.csproj|solutionrelative:conquerbot\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEB0D1-8CAF-6323-974F-B6FF970BCA29}|ConquerBot\\ConquerBot.csproj|c:\\users\\diego\\downloads\\conquerbot\\conquerbot\\proximoeventocalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEB0D1-8CAF-6323-974F-B6FF970BCA29}|ConquerBot\\ConquerBot.csproj|solutionrelative:conquerbot\\proximoeventocalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\Downloads\\ConquerBot\\ConquerBot\\Worker.cs",
+              "RelativeDocumentMoniker": "ConquerBot\\Worker.cs",
+              "ToolTip": "C:\\Users\\Diego\\Downloads\\ConquerBot\\ConquerBot\\Worker.cs",
+              "RelativeToolTip": "ConquerBot\\Worker.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAxwMsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T17:18:33.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProximoEventoCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\Downloads\\ConquerBot\\ConquerBot\\ProximoEventoCalculator.cs",
+              "RelativeDocumentMoniker": "ConquerBot\\ProximoEventoCalculator.cs",
+              "ToolTip": "C:\\Users\\Diego\\Downloads\\ConquerBot\\ConquerBot\\ProximoEventoCalculator.cs",
+              "RelativeToolTip": "ConquerBot\\ProximoEventoCalculator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T17:18:14.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

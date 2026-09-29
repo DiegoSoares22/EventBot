@@ -58,3 +58,4 @@ C:\Users\Diego\Downloads\ConquerBot\ConquerBot\obj\Debug\net8.0\refint\ConquerBo
 C:\Users\Diego\Downloads\ConquerBot\ConquerBot\obj\Debug\net8.0\ConquerBot.pdb
 C:\Users\Diego\Downloads\ConquerBot\ConquerBot\obj\Debug\net8.0\ConquerBot.genruntimeconfig.cache
 C:\Users\Diego\Downloads\ConquerBot\ConquerBot\obj\Debug\net8.0\ref\ConquerBot.dll
+C:\Users\Diego\Downloads\ConquerBot\ConquerBot\obj\Debug\net8.0\ConquerBot.sourcelink.json

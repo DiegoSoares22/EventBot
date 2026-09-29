@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConquerBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d29f533f225f03584d948ada3385ee87fdb09db4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConquerBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConquerBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
